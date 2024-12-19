@@ -1,0 +1,33 @@
+{
+  "name": "dark-theme-blue",
+  "displayName": "Dark Theme Blue",
+  "description": "A custom dark blue theme for Visual Studio Code",
+  "version": "1.0.0",
+  "publisher": "gthbccnt",
+  "engines": {
+    "vscode": "^1.7.5"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Theme Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-theme-blue.json"
+      }
+    ]
+  },
+  "files": [
+    "images/",
+    "themes/"
+  ],
+  "__metadata": {
+    "isApplicationScoped": false,
+    "installedTimestamp": 1730292909024,
+    "pinned": true,
+    "source": "vsix",
+    "size": 76786
+  }
+}
