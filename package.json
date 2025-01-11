@@ -2,9 +2,12 @@
   "name": "dark-theme-blue",
   "displayName": "Dark Theme Blue",
   "description": "A custom dark blue theme for Visual Studio Code",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "publisher": "gthbccnt",
-  "repository": "https://github.com/gthbccnt/gthbccnt.dark-theme-blue.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gthbccnt/gthbccnt.dark-theme-blue.git"
+  },
   "engines": {
     "vscode": "^1.7.5"
   },
@@ -22,7 +25,7 @@
   },
   "files": [
     "images/",
-    "screenshot.png",
+    "images/screenshot.png",
     "themes/",
     "README.md",
     "package.json",
